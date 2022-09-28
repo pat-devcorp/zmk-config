@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: rgb-effect-imp
+      revision: xo-status-fx
       import: app/west.yml
   self:
     path: config

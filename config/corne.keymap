@@ -18,7 +18,7 @@
 // Overwrite the display cs pin
 &nice_view_spi {
   cs-gpios = <8>;
-}
+};
 
 / {
     behaviors {

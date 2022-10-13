@@ -15,6 +15,11 @@
 // Overwrite number of leds on the keyboard. A Corne has 27 per side.
 &led_strip { chain-length = <27>; };
 
+// Overwrite the display cs pin
+&nice_view_spi {
+  cs-gpios = <8>;
+}
+
 / {
     behaviors {
         mth: my_tolayer_hold {

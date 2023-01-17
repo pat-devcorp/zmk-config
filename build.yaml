@@ -16,5 +16,11 @@ include:
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
   - board: nice_nano_v2
-    #shield: corne_right
-    shield: corne_right nice_view_adapter nice_view
+    #shield: corne_right                            # without display support
+    shield: corne_right nice_view_adapter nice_view # with display support
+
+# - Note -
+# Since I only have a display on the left side, the right side should be set as 
+# `shield: corne_right` but if I do that then It wont compile so I set it as is
+# the right side had a display. If you don't want to do that then you will have to 
+# compile it twice.

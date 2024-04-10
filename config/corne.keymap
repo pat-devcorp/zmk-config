@@ -97,8 +97,8 @@
             //                      | GUI |     | SPC |   | ENT  |     | ALT |
             bindings = <
                 &kp F1        &kp F2        &kp F3  &kp F4  &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
-                &bt BT_CLR    &bt BT_SEL 0  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI &rgb_ug RGB_EFF &C_VOL_UP  &trans  &trans  &trans  &trans  &PRINTSCREEN
-                &out OUT_TOG  &bt BT_SEL 1  &rgb_ug RGB_SAD  & rgb_ugRGB_HUD  &rgb_ug RGB_BRD &rgb_ug RGB_TOG &C_VOL_DN  &trans  &trans  &trans  &trans  &ext_power EP_TOG
+                &bt BT_CLR    &bt BT_SEL 0  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI &rgb_ug RGB_EFF &kp C_VOL_UP  &trans  &trans  &trans  &trans  &kp PRINTSCREEN
+                &out OUT_TOG  &bt BT_SEL 1  &rgb_ug RGB_SAD  & rgb_ugRGB_HUD  &rgb_ug RGB_BRD &rgb_ug RGB_TOG &kp C_VOL_DN  &trans  &trans  &trans  &trans  &ext_power EP_TOG
                                             &trans  &trans  &trans            &trans  &trans  &trans
             >;
         };

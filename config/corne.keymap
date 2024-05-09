@@ -44,13 +44,13 @@
         };
 
         rpi: require_prior_idle {
-            flavor = "balanced";
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
-            quick-tap-ms = <175>;                // repeat on tap-into-hold
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>;
-            hold-trigger-on-release;             // delay positional check until key-release
       };
     };
 
